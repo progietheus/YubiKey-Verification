@@ -32,7 +32,7 @@ Service desk teams requiring users to verify their identities with YubiKeys, reg
 ### Backend
 
 1. Ensure you have a SQL Server instance available.
-2. Create and configure `appsettings.json` (not included in repo) with your database and Okta credentials.
+2. Create and configure `appsettings.json` (appsettings.example.json has been provided) with your database and Okta credentials.
 3. Apply database migrations:
    ```powershell
    dotnet ef database update
@@ -51,4 +51,5 @@ Service desk teams requiring users to verify their identities with YubiKeys, reg
 ## Contributing
 
 Contributions are welcome! Please open issues or submit pull requests for improvements.
+
 
